@@ -8,3 +8,18 @@ body {
 button {
   font-size: 20px;
 }
+input {
+  font-size: 20px;
+}
+
+.cHidden {
+    display: none;
+}
+.cClock {
+    background-color: white;
+    text-align: center;
+}
+.cTodos {
+    background-color: lightyellow;
+    text-align: left;
+}

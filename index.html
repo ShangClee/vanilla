@@ -5,20 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla Challenge Final</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="./css/test.css"> -->
 </head>
 <body>
     <h1>Vanilla Challenge Final Assignment</h1>
+    <h2>00:00:00</h2>
+    <h2 id="igreetingH2" class="cHidden">#igreeting</h2>
+    <form id="ilogin-form" class="cHidden">
+        <input 
+            required
+            maxlength = "15" 
+            type="text" 
+            placeholder="Input your username?"/>
+        <input type="submit" value ="Login"/>
+    </form>
+    <button id="ibutton">changing background</button>
     <p>Hello from p</p>
-    <ui id="itodo-list">
-        <li>
-            <span>hello from index.html</span>
-        </li>
-    </ui> 
+    <form id="itodo-form">
+        <input type="text" placeholder ="write a to-do and enter" required>
+    </form>
+    <ul id="itodo-list"> </ul> 
    <script>
     //    document.body.style.backgroundColor = "green";
    </script>
    <script src = "./index.js"></script>
    <!-- <script src = "./js/clock.js"></script> -->
+   <!-- <script src = "./js/test.js"></script> -->
 </body>
+<footer>
+    <p></p>
+</footer>
 </html>
